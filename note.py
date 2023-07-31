@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import messagebox, simpledialog, filedialog
 import os
 from datetime import datetime
+import shutil
+import sys
 
 class StickyNoteApp:
     def __init__(self, root):
